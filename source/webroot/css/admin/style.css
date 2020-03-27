@@ -1,0 +1,14 @@
+
+body{
+	background-color: #F40C0C;
+}
+* body{
+	margin: 0px;
+	padding: 0px;
+}
+.configs form{
+	width: 100%;
+}
+form{
+	width: 100%;
+}

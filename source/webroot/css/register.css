@@ -1,0 +1,91 @@
+
+
+.form-register{
+	margin:  60px auto;
+}
+/* Information member */
+.register-top{
+}
+.register-top .ttl{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 2px solid #d00122;
+    margin-bottom: 40px;
+    /* color: #fff; */
+    /* background-color: #d00122; */
+}
+.register-top .form-infor-top{
+	display: flex;
+}
+.register-top .form-infor-top .avata{margin: 30px;}
+.register-top .form-infor-top .avata img{
+    border-radius: 50%;
+    height: 250px;
+    width: 300px;
+}
+.register-top .form-infor-top .member-infor{
+	padding: 30px 0px;
+	width: 100%;
+}
+.register-top .form-infor-top .member-infor .item{
+}
+.register-top .form-infor-top .member-infor .first_name{}
+.register-top .form-infor-top .member-infor .last_name{}
+.register-top .form-infor-top .member-infor .gender{}
+.register-top .form-infor-top .member-infor .birthday{}
+.register-top .form-infor-top .member-infor .email{}
+.register-top .form-infor-top .member-infor .phone{}
+.register-top .form-infor-top .member-infor .address{}
+
+
+/* Information User */
+/* Form user */
+.register-bottom{
+	display: flex;
+}
+.register-bottom .form-user{
+    width: 50%;
+    padding: 20px;
+}
+.register-bottom .form-user button{
+    background-color: #d00122;
+    font-weight: bold;
+}
+.register-bottom .form-user .user_name{}
+.register-bottom .form-user .password{}
+.register-bottom .form-user .re_password{}
+.register-bottom .form-user .remember{}
+
+/* Form connect us */
+.register-bottom .form-connect{
+    width: 50%;
+    padding: 59px; 
+}
+.register-bottom .form-connect p{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 19px;
+}
+.register-bottom .form-connect ul{}
+.register-bottom .form-connect ul li{}
+.register-bottom .form-connect ul li .item{}
+.register-bottom .form-connect ul li a{
+    color: #ad2121;
+    font-size: 20px;
+}
+.register-bottom .form-connect ul li a i{
+	color: #d00122;
+	margin-right: 16px;
+}
+.register-bottom .form-connect .connect{
+    margin: 12px 0px;
+}
+.register-bottom .form-connect .connect .item{}
+.register-bottom .form-connect .connect .item.btn.btn-primary{
+	background-color: #d00122;
+	font-weight: bold;
+}
+.register-bottom .form-connect .connect a i{
+    margin-right: 15px;
+}

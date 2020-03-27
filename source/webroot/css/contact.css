@@ -1,0 +1,101 @@
+/* Contact */
+.contact{}
+.contact .contact-top{
+	width: 100%;
+	position: relative;
+}
+
+.contact .contact-top .img {
+	height: 180px;
+}
+
+.contact .contact-top img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center center;
+}
+.contact .contact-top .ttl{
+    color: #ffffff;
+    position: absolute;
+    top: 50px;
+    left: 650px;
+    text-align: center;
+}
+.contact .contact-top .ttl h1{
+    font-size: 24px;
+}
+.contact .contact-top .ttl h2{
+    font-size: 20px;
+}
+.contact .contact-top .map{
+	width: 100%;
+}
+.contact .contact-top .map iframe{
+	width: 100%;
+	height: 400px;
+}
+
+
+/* Contact buttom */
+.contact .contact-buttom{
+	
+}
+.contact .contact-buttom .list-contact{
+	display: flex;
+	margin-top: 60px;
+}
+.contact .contact-buttom .item{
+	background-color: #eeeff3;
+	margin: 20px;
+	padding: 34px;
+	flex: 1;
+	width: 33%;
+	height: 165px;
+	text-align: center;
+	border: 2px dashed #666666;
+}
+.contact .contact-buttom .item i{
+	font-size: 30px;
+	color: #d00122;
+}
+.contact .contact-buttom .item h3{
+	font-weight: bold;
+}
+.contact .contact-buttom .item p{
+    white-space: nowrap;
+    font-size: 17px;
+}
+.contact .contact-buttom .item.contact1{}
+.contact .contact-buttom .item.contact2{}
+.contact .contact-buttom .item.contact3{}
+
+.contact .contact-buttom .complain-form{
+    text-align: center;
+    margin-top: 70px;
+}
+.contact .contact-buttom .complain-form h3{
+    font-weight: bold;
+    font-size: 24px;
+}
+.contact .contact-buttom .complain-form .row{
+	padding: 0px 222px;
+}
+.contact .contact-buttom .complain-form .row input{
+	width: 370px;
+	height: 40px;
+}
+.contact .contact-buttom .complain-form .row textarea{
+    width: 770px;
+    height: 120px;
+}
+.contact .contact-buttom .complain-form button{
+    color: #ffff;
+    height: 40px;
+    width: 387px;
+    border-radius: 0;
+    background-color: #d00122;
+    margin-bottom: 55px;
+}
+
+/* END: Contact */

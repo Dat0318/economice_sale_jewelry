@@ -1,0 +1,115 @@
+.page-checkout{
+	margin-top: 30px;
+	margin-bottom: 120px;
+}
+.page-checkout .holder{}
+/* checkout-top */
+.page-checkout .checkout-top{
+	margin-bottom: 30px;
+}
+.page-checkout .checkout-top .login{}
+.page-checkout .checkout-top .login .click-login:hover{
+	color: #111;
+} 
+.page-checkout .checkout-top .login .login-hidden{
+	margin-bottom: 40px;
+	display: none;
+}
+.page-checkout .checkout-top .login .login-hidden .note-login{}
+.page-checkout  label{
+	margin-top: 10px;
+	display: block;
+	font-weight: bold;
+	font-size: 14px;
+}
+.page-checkout form input[type=text], input[type=password]{
+	width: 100%;
+	height: 40px;
+	border: 1px solid #ddd;
+	margin-bottom: 10px;
+	padding: 0 10px;
+}
+.page-checkout form textarea{
+	width: 100%;
+	min-height: 100px;
+	padding: 10px;
+	border: 1px solid #ddd;
+}
+.page-checkout .checkout-top .login .login-hidden form input[type=checkbox]{
+	
+	margin: 0 10px 0 15px;
+}
+.page-checkout .checkout-top .login .login-hidden form .btn-login{
+	border: none;
+	background: #d00122;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 5px 15px;
+	font-weight: bold;
+	margin-top: 25px;
+}
+/* end:checkout-top; */
+
+.page-checkout .checkout-content{
+	
+}
+.page-checkout .checkout-content .infor-checkout{
+	
+	padding-top: 25px;
+	border-top: 2px solid #ddd;
+}
+.page-checkout .checkout-content .title{
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.page-checkout .checkout-content .infor-checkout .form-input{}
+.page-checkout .checkout-content .infor-checkout .create-account{
+	display: none;
+	padding: 10px 0;
+}
+.page-checkout .checkout-content .infor-checkout .create-account p{
+	font-size: 14px;
+}
+.page-checkout .checkout-content .infor-checkout .create-account .password{
+	border: 1px solid #d00122;
+	padding: 0 10px;
+}
+.page-checkout .checkout-content .infor-checkout .form-address{
+	display: none;
+}
+.page-checkout .checkout-content .infor-order{
+	/* float: left; */
+	border: 2px solid #d00122;
+	padding: 25px;
+	/* margin-left: 30px; */
+	height: auto;
+}
+.page-checkout .checkout-content .infor-order table{
+	font-size: 14px;
+	width: 100%;
+}
+.page-checkout .checkout-content .infor-order .table-top thead{
+	text-transform: uppercase;
+}
+.page-checkout .checkout-content .infor-order .table-top thead tr th:last-child{text-align: right;}
+.page-checkout .checkout-content .infor-order table tr td{
+	padding: 10px 0;
+	border-bottom: 1px solid #ddd;
+}
+.page-checkout .checkout-content .infor-order table tr td:last-child{	
+	text-align: right;
+}
+.page-checkout .checkout-content .infor-order table tr .price{
+	font-weight: bold;
+}
+
+.page-checkout .checkout-content .infor-order .btn-checkout{
+	border: none;
+	background: #d26e4b;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 5px 20px;
+	font-weight: bold;
+	margin-top: 30px;
+}

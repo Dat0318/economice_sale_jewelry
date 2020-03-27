@@ -1,0 +1,132 @@
+/* New */
+/* Nar bar */
+.new {
+    margin: 60px 0px;
+    display: flex;
+    width: 100%;
+}
+.new .nar-bar{
+    float: left;
+    width: 25%;
+}
+.new .nar-bar .search{
+    width: 100%;
+}
+.new .nar-bar .search form{
+	width: 80%;
+	height: 33px;
+	display: flex;
+	position: relative;
+	border-radius: 3px;
+	overflow: hidden;
+}
+.new .nar-bar .search form input{
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+.new .nar-bar .search form button{
+    height: 100%;
+    width: 45px;
+    background-color: #d00122;
+    position: absolute;
+    right: 0;
+    top: 0;
+    float: right;
+    border-radius: 0px;
+    /* border: none; */
+}
+.new .nar-bar h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 30px 0px;
+}
+.new .nar-bar .cato-new{
+    width: 81%;
+    display: flex;
+    border: 1px solid #ececec;
+    padding: 15px;
+}
+.new .nar-bar .cato-new ul{}
+.new .nar-bar .cato-new li{
+    display: flex;
+    padding: 16px 0px;
+    border-bottom: 1px solid #ececec;
+}
+.new .nar-bar .cato-new li img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.new .nar-bar .cato-new li p{
+    font-size: 12px;
+    padding-left: 10px;
+}
+/* END: Nar bar */
+
+/* Content */
+.new .content{
+    width: 75%;
+}
+.new .content .header{
+}
+.new .content .header h3{
+	font-family: 'Pattaya';
+    font-weight: bold;
+    text-align: center;
+}
+.new .content .main-content{
+    display: flex;
+}
+.new .content .main-content .item{
+	margin: 0px 15px;
+	/* z-index: 1; */
+	position: relative;
+	width: 280px;
+	height: 320px;
+	border: 1px solid #ececec;
+}
+.new .content .main-content .item img{
+	width: 100%;
+	height: 190px;
+}
+.new .content .main-content .item .date{
+	position: absolute;
+	z-index: 1;
+	top: 23px;
+	left: -9px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #d00122;
+	color: #fff;
+	line-height: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+.new .content .main-content .item .link{
+	padding-left: 10px;
+	margin: 10px 0px;
+	width: 270px;
+	height: 52px;
+	overflow: hidden;
+	line-height: 25px;
+}
+.new .content .main-content .item .link a{
+	color: #111111;
+	font-weight: bold;
+	font-size: 16px;
+}
+.new .content .main-content .item p{
+    font-size: 13px;
+    line-height: 19px;
+    padding-left: 10px;
+}
+
+.new .content .main-content .new1{}
+.new .content .main-content .new2{}
+.new .content .main-content .new3{}
+
+/* END: Content */
+/* END: New */

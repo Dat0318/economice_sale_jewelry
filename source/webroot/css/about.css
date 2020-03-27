@@ -1,0 +1,219 @@
+/* page-title */
+.page-about{
+}
+.page-about .page-title{
+	position: relative;
+	min-height: 180px;
+	min-width: 100%;
+	background-image: url('../img/banner-2-aunzcaus.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 39% 57%;
+	margin-bottom: 15px;
+}
+.page-about .page-title .page-fill{
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-height: 180px;
+	min-width: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.page-about .page-title .page-title-inner{
+	position: absolute;
+	z-index: 1;
+	background: rgba(255, 255, 255,0);
+	margin: 0 ;
+	padding: 20px 15px;
+	min-height: 180px;
+	min-width: 100%;
+	text-align: center;
+}
+.page-about .page-title .page-title-inner .title{
+	text-transform: uppercase;
+	font-size: 24px;
+	color: #fff;
+	margin-top: 40px;
+	font-weight: bold;
+}
+.page-about .page-title .page-title-inner .breadcrumbs{
+    margin-top: 15px;
+}
+.page-about .page-title .page-title-inner .breadcrumbs li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 5px;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.page-about .page-title .page-title-inner .breadcrumbs .driver{
+	color: #fff;
+	opacity: 0.35;
+}
+.page-about .page-title .page-title-inner .breadcrumbs li a{
+	color: #fff;
+}
+.page-about .page-title .page-title-inner .breadcrumbs .active{
+	font-weight: bold;
+	color: #fff;
+}
+/* END:page-title; */
+
+/* section-content */
+.page-about .section-content{
+    margin: 60px 0;
+}
+.page-about .section-content .section-top{
+    margin-bottom: 70px;
+}
+.page-about .section-content .section-top .holder{
+    display: flex;
+}
+.page-about .section-content .section-top .section-top-image{
+    min-width: 600px;
+    min-height: 300px;
+    padding: 15px;
+   
+}
+.page-about .section-content .section-top .section-top-image img{
+    min-width: 100%;
+    height: auto;
+    position: relative;
+    animation: fadeInLeft 2s forwards;
+    
+}
+
+/* @-webkit-keyframes fadeInLeft {
+    from {
+        opacity:0;
+        -webkit-transform: translatex(-100px);
+        -moz-transform: translatex(-100px);
+        -o-transform: translatex(-100px);
+        transform: translatex(-100px);
+    }
+    to {
+        opacity:1;
+        -webkit-transform: translatex(0);
+        -moz-transform: translatex(0);
+        -o-transform: translatex(0);
+        transform: translatex(0);
+    }
+} */
+/* @-webkit-keyframes fadeInRight {
+    from {
+        opacity:0;
+        -webkit-transform: translatex(100px);
+        -moz-transform: translatex(100px);
+        -o-transform: translatex(100px);
+        transform: translatex(100px);
+    }
+    to {
+        opacity:1;
+        -webkit-transform: translatex(0);
+        -moz-transform: translatex(0);
+        -o-transform: translatex(0);
+        transform: translatex(0);
+    }
+} */
+/* @-webkit-keyframes fadeOutLeft {
+    from {
+        opacity:0;
+        -webkit-transform: translatex(100px);
+        -moz-transform: translatex(100px);
+        -o-transform: translatex(100px);
+        transform: translatex(100px);
+    }
+    to {
+        opacity:1;
+        -webkit-transform: translatex(0);
+        -moz-transform: translatex(0);
+        -o-transform: translatex(0);
+        transform: translatex(0);
+    }
+} */
+/* @-webkit-keyframes fadeOutRight {
+    from {
+        opacity:0;
+        -webkit-transform: translatex(-100px);
+        -moz-transform: translatex(-100px);
+        -o-transform: translatex(-100px);
+        transform: translatex(-100px);
+    }
+    to {
+        opacity:1;
+        -webkit-transform: translatex(0);
+        -moz-transform: translatex(0);
+        -o-transform: translatex(0);
+        transform: translatex(0);
+    }
+} */
+
+.page-about .section-content .section-top .section-top-content{
+    padding: 15px;
+    position: relative;
+    max-width: 50%;
+    animation: fadeInRight 2s forwards;
+}
+.page-about .section-content .section-top .section-top-content .title{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.page-about .section-content .section-top .section-top-content .title .name{
+    color: #d00122;
+}
+.page-about .section-content .section-top .section-top-content p{
+    margin-bottom: 10px;
+    text-align: justify;
+    font-size: 15.3px;
+}
+.page-about .section-content .section-bottom{
+    /* margin-top: 53px; */
+}
+.page-about .section-bottom .holder{
+    display: flex;
+}
+.page-about .section-bottom .section-bottom-content{}
+.page-about .section-bottom .section-bottom-content .title{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.page-about .section-bottom .section-bottom-content .benefit{
+    max-width: 600px;
+    padding: 15px 0;
+    animation: fadeOutLeft 2s forwards;
+}
+.page-about .section-bottom .section-bottom-content .benefit .benefit-item{
+    display: flex;
+    margin-bottom: 20px;
+}
+.page-about .section-bottom .section-bottom-content .benefit .benefit-item img{
+    max-height: 60px;
+    max-width: 70px;
+    margin-top: 10px;
+
+    /* width: 80px; */
+    /* height: 60px; */
+}
+.page-about .section-bottom .section-bottom-content .benefit .benefit-item .benefit-infor{
+    padding: 10px;
+}
+.page-about .section-bottom .section-bottom-content .benefit .benefit-item .benefit-infor h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.page-about .section-bottom .section-bottom-content .benefit .benefit-item .benefit-infor p{
+    color: #353535;
+}
+.page-about .section-content .section-bottom .section-bottom-image{
+    padding: 15px;
+    margin-left: 60px;
+}
+.page-about .section-content .section-bottom .section-bottom-image img{
+    max-width: 468px;
+    max-height: 579px;
+    animation: fadeOutRight 2s forwards;
+}
+/* END:section-content; */

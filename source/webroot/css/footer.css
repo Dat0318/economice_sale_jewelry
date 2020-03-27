@@ -1,0 +1,214 @@
+/* Footer */
+.footer {}
+.footer .social {
+    padding-bottom: 44px;
+    border-bottom: 1px solid #444444;
+}
+.footer .footer-top {
+    background-color: #181818;
+    color: #fff;
+    padding: 70px 0;
+}
+
+
+.footer .register-mail {
+    width: 69%;
+    float: left;
+    display: flex;
+}
+
+.footer .register-mail .ttl {
+    font-size: 20px;
+    font-weight: bold;
+    white-space: nowrap;
+    padding-right: 32px;
+    line-height: 40px;
+}
+.footer .register-mail .ttl i {}
+.footer .register-mail .form {
+    width: 100%;
+    padding-right: 126px;
+}
+
+.footer .register-mail .form form {
+    padding-right: 90px;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.footer .register-mail .form input {
+    border-radius: 0;
+    border: none;
+    height: 100%;
+}
+.footer .register-mail .form button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #d00122;
+    font-weight: bold;
+    font-size: 13px;
+    width: 90px;
+    border-radius: 0;
+    height: 100%;
+    border: none;
+    /* padding: 12px; */
+}
+
+.footer .connect {
+    width: 31%;
+    float: right;
+    display: flex;
+}
+
+.footer .connect .ttl {
+    padding-right: 13px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer .connect ul {
+    display: flex;
+}
+.footer .connect ul li {
+    padding: 0 5px;
+    line-height: 30px;
+}
+.footer .connect ul li a {}
+.footer .connect ul li a:hover {
+    color: #fff;
+}
+.footer .connect ul li a i {
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer .info {
+    padding-top: 44px;
+    display: flex;
+}
+.footer .info .item {
+    width: 25%;
+    padding-right: 37px;
+}
+.footer .info .item .ttl {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.footer .info .item .ttl::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 45px;
+    background-color: #d00122;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer .info .item.about .text {
+    font-size: 13px;
+    color: #a4a4a4;
+    line-height: 23px;
+}
+
+.footer .info .item.contact {}
+.footer .info .item.contact ul {}
+.footer .info .item.contact ul li {
+    position: relative;
+    padding-left: 26px;
+    margin-bottom: 4px;
+}
+.footer .info .item.contact ul li a {
+    font-size: 13px;
+    color: #a4a4a4;
+    text-decoration: none;
+}
+.footer .info .item.contact ul li i {
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.footer .info .item.link {}
+.footer .info .item.link ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer .info .item.link ul li {
+    width: 50%;
+}
+.footer .info .item.link ul li a {
+    font-size: 13px;
+    color: #848484;
+    line-height: 34px;
+}
+
+.footer .info .item.link ul li.active a {
+    color: #cc0121;
+}
+
+.footer .info .item.link {}
+.footer .info .item.link .img {}
+.footer .info .item.link .img img {}
+
+.copyright {
+    background-color: #000000;
+    color: #808080;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .footer .holder {
+        padding: 0 15px;
+    }
+
+    .footer .register-mail .form {
+        padding-right: 30px;
+    }
+
+    .footer .footer-top {
+        padding: 30px 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .footer .register-mail,
+    .footer .connect {
+        width: 100%;
+        float: none;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .footer .register-mail {
+        display: block;
+    }
+
+    .footer .social {
+        text-align: center;
+    }
+
+    .footer .register-mail .form {
+        margin-top: 20px;
+    }
+
+    .footer .register-mail .ttl,
+    .footer .register-mail .form {
+        padding: 0;
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+}

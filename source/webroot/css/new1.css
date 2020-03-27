@@ -1,0 +1,158 @@
+.new.new-detail{
+	
+}
+.new.new-detail .content{border-left: 1px solid #ececec;float: right;}
+.new.new-detail .content .main-content{
+	width: 100%;
+	margin-left: 30px;
+	margin-bottom: 60px;
+	/* padding: 13px; */
+	display: block;
+	margin-right: 30px;
+	border-left: 2px solid #ececec;
+	border-bottom: 2px solid #ececec;
+	border-right: 2px solid #ececec;
+}
+.new.new-detail .content .main-content p{
+    padding-left: 25px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.new.new-detail .content .main-content .active{
+	font-size: 27px;
+	font-family: Roboto,'san-sens-serif';
+	margin: 11px 25px;
+	font-weight: bold;
+	position: relative;
+	margin-bottom: 40px;
+}
+.new.new-detail .content .main-content .active:after{
+	content: " ";
+	display: block;
+	position: absolute;
+	width: 61px;
+	height: 5px;
+	background-color: #d8d2d2;
+}
+.new.new-detail .content .main-content h3{
+    font-size: 27px;
+    font-weight: bold;
+    font-family: Pattaya;
+    margin: 11px 25px;
+}
+.new.new-detail .content .main-content a{
+	margin-left: 25px;
+}
+.new.new-detail .content .main-content a i{
+	margin-right: 10px;
+}
+.new.new-detail .content .main-content .img{
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+.new.new-detail .content .main-content .img img{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+.new.new-detail .content .main-content .img .date{
+    background-color: #D00122;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: -12px;
+}
+.new.new-detail .content .main-content .img .date p{
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 4px 10px;
+}
+.new.new-detail .content .main-content .alt{
+    margin-left: 25px;
+    font-size: 16px;
+    font-style: italic;
+}
+.new.new-detail .content .main-content img{
+	width: 500px;
+	height: 250px;
+	margin: 10px 218px;
+}
+.new.new-detail .content .main-content .social{
+    margin-left: 25px;
+}
+.new.new-detail .content .main-content .social .item{
+    font-size: 14px;
+    height: 35px;
+    width: 100px;
+    margin: 2px 5px 2px 0px;
+    padding: 5px;
+}
+.new.new-detail .content .main-content .social .item.botton1{background-color: #4769a5;box-shadow: 0px 4px 0px 0px #35558e;border: none;}
+.new.new-detail .content .main-content .social .item.botton2{
+    background-color: #65ccef;
+    border: none;
+    box-shadow: 0px 4px 0px #51a3bf;
+}
+.new.new-detail .content .main-content .social .item.botton3{
+    background-color: #ea4335;
+    border: none;
+    box-shadow: 0px 4px 0px 0px #bb362a;
+}
+.new.new-detail .content .main-content .social .item.botton4{
+    background-color: #cd252b;
+    border: none;
+    box-shadow: 0px 4px 0px 0px #a41e22;
+}
+.new.new-detail .content .main-content .social .item.botton5{
+    background-color: #2ba3e1;
+    border: none;
+    box-shadow: 0px 4px 0px 0px #2282b4;
+}
+.new.new-detail .content .main-content .social a{
+}
+.new.new-detail .content .main-content .social a i{
+    margin-right: 10px;
+}
+.new.new-detail .content .main-content .new.new-detail-recomment{}
+.new.new-detail .content .main-content .new.new-detail-recomment a{}
+.new.new-detail .content .main-content .new.new-detail-recomment a i{}
+
+
+/* Form comment */
+.new.new-detail .content .comment-box{
+    background-color: #f2f2f2;
+    margin-left: 25px;
+    padding: 20px 25px;
+}
+.new.new-detail .content .comment-box{}
+.new.new-detail .content .comment-box h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.new.new-detail .content .comment-box p{
+    font-size: 16px;
+}
+.new.new-detail .content .comment-box .form-row{}
+.new.new-detail .content .comment-box .form-row .item{}
+.new.new-detail .content .comment-box .form-row .item label{}
+.new.new-detail .content .comment-box .form-row .item textarea{
+    width: 100%;
+    height: 130px;
+    padding-left: 10px;
+}
+.new.new-detail .content .comment-box .form-row .item input{
+    border-radius: 0;
+    padding-left: 10px;
+}
+.new.new-detail .content .comment-box .form-row .item button{
+    width: 120px;
+    height: 40px;
+    border-radius: 0;
+    background-color: #d00122;
+    font-weight: bold;
+}

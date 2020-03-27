@@ -1,0 +1,187 @@
+/* Cart */
+
+/* Product */
+.page-cart{
+	display: flex;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.page-cart .product{
+	width: 73%;
+	flex: 1;
+	margin-right: 26px;
+}
+.page-cart .product table{width: 690px;}
+.product table thead tr{
+	color: #353535;
+}
+.product table thead th{
+	border-bottom: 3px solid #ececec;
+	opacity: 0.7;
+	text-align: center;
+}
+.product table tbody tr{
+	border-bottom: 2px solid #ececec;
+}
+.product table tbody tr .price{
+	color: #111111;
+	font-weight: bold;
+}
+.product table tbody tr td{
+	text-align: center;
+	padding: 0px 10px;
+	color: #7D7474;
+	font-size: 13px;
+}
+.product table > thead > tr > th .delete-cart{
+	color: #d00122 	;
+}
+.product table tbody tr td a{
+    color: #b5b4b4;
+}
+
+.product table tbody tr td  .quantity{
+	width: 30px;
+	text-align: center;
+	border: 1px solid #ddd;
+	margin: 0px -5px;
+	padding: 5px;
+}
+.product table tbody tr td  button{
+	padding: 5px 10px;
+	text-align: center;
+	border: 1px solid #dddddd;
+	background-color: #c7c9ce;
+}
+.product table tbody tr td .remove{
+	border: 2px solid #ccc8c8;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	color: #ab9d9d;
+	background-color: #ececec;
+	line-height: 26px;
+}
+
+.product .watch-product{
+	border: 1px solid #d10123;
+	background-color: #fff;
+	color: #d10123;
+	width: 221px;
+	height: 34px;
+	margin-top: 20px;
+	padding: 7px;
+}
+.product .watch-product i{
+	margin-right: 10px;
+}
+.product .update-cart{
+	color: #fff;
+	background-color: #e1677a;
+	width: 221px;
+	height: 34px;
+	font-weight: bold;
+	font-size: 15px;
+	margin-top: 20px;
+	border: none;
+}
+.product table tbody tr img{
+	height: 80px;
+	width: 80px;
+}
+/* END Product */
+
+/* Total price */
+.total-price{
+	border-left: 2px solid #ececec;
+	width: 34%;
+	padding-left: 26px;
+	flex: 1;
+}
+.total-price .payment{
+	border-bottom: 3px solid #ececec;
+	border-top: 3px solid #ececec;
+}
+.total-price .payment button{
+	border-radius: 0;
+	margin: 20px 0px;
+	background-color: #d26e4b;
+	border: 1px solid #d26e4b;
+	width: 100%;
+}
+.total-price .payment div{
+	margin-bottom: 20px;
+}
+.total-price .payment div i{
+	margin-right: 10px;
+	color: #7D7474;
+}
+.total-price table{width: 100%;}
+.total-price table thead tr{
+	border-bottom: 3px solid #ececec;
+}
+.total-price table thead th{
+	color: #7D7474;
+}
+.total-price table tbody tr{
+	border-bottom: 2px solid #ececec;
+}
+.total-price table tbody tr td .address-form{
+	display: none;
+}
+.total-price table tbody tr td .address-form select{
+	width: 310px;
+	height: 35px;
+	margin: 10px 0px;
+	padding-left: 10px;
+}
+.total-price table tbody tr td .address-form input{
+	width: 310px;
+	height: 35px;
+	margin: 10px 0px;
+	padding-left: 10px;
+}
+.total-price table tbody tr td .address-form button{
+	width: 310px;
+	height: 35px;
+	background-color: #d10123;
+	color: #fff;
+	border: 1px solid #d10123;
+	font-weight: bold;
+}
+.total-price table tbody tr .price{
+color: #111111;
+font-weight: bold;
+}
+.page-cart .total-price table tbody tr td .payment .btn.btn-primary{
+    
+}
+.total-price table tbody tr td{width: 60%;color: #7D7474;padding: 20px 0px;font-size: 14px;}
+.total-price table tbody tr .right{text-align: right;}
+.total-price table tbody tr td a{
+
+}
+.total-price .form{
+	width: 100%;
+}
+.total-price .form form{
+}
+.total-price .form form input{
+	padding-left: 10px;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.total-price .form form button{
+	width: 100%;
+	border-style: solid;
+	text-align: center;
+	line-height: 31px;
+	color: #848181;
+}
+/* END total price */
+
+/* END Cart */
